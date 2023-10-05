@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  webapp:
+    container_name: game-auction
+    image: gameauction:latest
+    ports:
+      - "80:80"
+    environment:
+      DB_USERNAME: user_manager
+      DB_PASSWORD: user_manager
+    networks:
+      - my-network
+    depends_on:
+      - database
+
+  database:
+    container_name: database
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: game-auction
+      POSTGRES_USER: user_manager
+      POSTGRES_PASSWORD: user_manager
+      DB_USERNAME: user_manager
+      DB_PASSWORD: user_manager
+    ports:
+      - "5432:5432"
+    networks:
+      - my-network
+
+networks:
+  my-network:

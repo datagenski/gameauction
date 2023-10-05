@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://database:5432/game-auction?currentSchema=user_manager&createDatabaseIfNotExist=true
+    username: user_manager
+    password: user_manager
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  file:
+    path: application-debug.log
+  level:
+    root: info

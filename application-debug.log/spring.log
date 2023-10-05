@@ -1,0 +1,138 @@
+2023-10-03T21:40:36.189+04:00  INFO 9464 --- [main] c.d.gameauction.GameAuctionApplication   : Starting GameAuctionApplication using Java 21 with PID 9464 (C:\Users\davitabu\Desktop\test\gameAuction\target\classes started by davitabu in C:\Users\davitabu\Desktop\test\gameAuction)
+2023-10-03T21:40:36.191+04:00  INFO 9464 --- [main] c.d.gameauction.GameAuctionApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T21:40:36.687+04:00  INFO 9464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03T21:40:36.728+04:00  INFO 9464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-10-03T21:40:37.064+04:00  INFO 9464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-03T21:40:37.070+04:00  INFO 9464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-03T21:40:37.070+04:00  INFO 9464 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-03T21:40:37.134+04:00  INFO 9464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-03T21:40:37.134+04:00  INFO 9464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 893 ms
+2023-10-03T21:40:37.244+04:00  INFO 9464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03T21:40:37.281+04:00  INFO 9464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-03T21:40:37.283+04:00  INFO 9464 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-03T21:40:37.373+04:00  INFO 9464 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:40:37.468+04:00  INFO 9464 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-03T21:40:37.479+04:00  INFO 9464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-03T21:40:37.589+04:00  INFO 9464 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@799c8758
+2023-10-03T21:40:37.590+04:00  INFO 9464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-03T21:40:37.773+04:00  INFO 9464 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:40:38.258+04:00  INFO 9464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03T21:40:38.310+04:00  INFO 9464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:40:38.489+04:00  WARN 9464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-03T21:40:38.715+04:00  INFO 9464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-03T21:40:38.728+04:00  INFO 9464 --- [main] c.d.gameauction.GameAuctionApplication   : Started GameAuctionApplication in 3.149 seconds (process running for 3.838)
+2023-10-03T21:40:41.924+04:00  INFO 9464 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03T21:40:41.925+04:00  INFO 9464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03T21:40:41.925+04:00  INFO 9464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-03T21:41:58.352+04:00  INFO 9464 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:41:58.354+04:00  INFO 9464 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-03T21:41:58.359+04:00  INFO 9464 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-03T21:42:01.259+04:00  INFO 27216 --- [main] c.d.gameauction.GameAuctionApplication   : Starting GameAuctionApplication using Java 21 with PID 27216 (C:\Users\davitabu\Desktop\test\gameAuction\target\classes started by davitabu in C:\Users\davitabu\Desktop\test\gameAuction)
+2023-10-03T21:42:01.261+04:00  INFO 27216 --- [main] c.d.gameauction.GameAuctionApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T21:42:01.716+04:00  INFO 27216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03T21:42:01.759+04:00  INFO 27216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-10-03T21:42:02.124+04:00  INFO 27216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-03T21:42:02.131+04:00  INFO 27216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-03T21:42:02.131+04:00  INFO 27216 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-03T21:42:02.237+04:00  INFO 27216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-03T21:42:02.237+04:00  INFO 27216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 937 ms
+2023-10-03T21:42:02.447+04:00  INFO 27216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03T21:42:02.504+04:00  INFO 27216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-03T21:42:02.507+04:00  INFO 27216 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-03T21:42:02.718+04:00  INFO 27216 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:42:02.901+04:00  INFO 27216 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-03T21:42:02.943+04:00  INFO 27216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-03T21:42:03.092+04:00  INFO 27216 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ba060af
+2023-10-03T21:42:03.093+04:00  INFO 27216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-03T21:42:03.296+04:00  INFO 27216 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:42:03.833+04:00  INFO 27216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03T21:42:03.891+04:00  INFO 27216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:42:04.081+04:00  WARN 27216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-03T21:42:04.350+04:00  INFO 27216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-03T21:42:04.355+04:00  INFO 27216 --- [main] c.d.gameauction.GameAuctionApplication   : Started GameAuctionApplication in 3.497 seconds (process running for 4.224)
+2023-10-03T21:42:07.295+04:00  INFO 27216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03T21:42:07.295+04:00  INFO 27216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03T21:42:07.296+04:00  INFO 27216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-03T21:44:31.536+04:00  INFO 27216 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:44:31.538+04:00  INFO 27216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-03T21:44:31.540+04:00  INFO 27216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-03T21:44:35.579+04:00  INFO 14068 --- [main] c.d.gameauction.GameAuctionApplication   : Starting GameAuctionApplication using Java 21 with PID 14068 (C:\Users\davitabu\Desktop\test\gameAuction\target\classes started by davitabu in C:\Users\davitabu\Desktop\test\gameAuction)
+2023-10-03T21:44:35.581+04:00  INFO 14068 --- [main] c.d.gameauction.GameAuctionApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T21:44:36.047+04:00  INFO 14068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03T21:44:36.086+04:00  INFO 14068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-10-03T21:44:36.426+04:00  INFO 14068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-03T21:44:36.431+04:00  INFO 14068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-03T21:44:36.432+04:00  INFO 14068 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-03T21:44:36.497+04:00  INFO 14068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-03T21:44:36.497+04:00  INFO 14068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 878 ms
+2023-10-03T21:44:36.598+04:00  INFO 14068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03T21:44:36.634+04:00  INFO 14068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-03T21:44:36.636+04:00  INFO 14068 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-03T21:44:36.723+04:00  INFO 14068 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:44:36.818+04:00  INFO 14068 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-03T21:44:36.829+04:00  INFO 14068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-03T21:44:36.941+04:00  INFO 14068 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63e4484d
+2023-10-03T21:44:36.942+04:00  INFO 14068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-03T21:44:37.114+04:00  INFO 14068 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:44:37.599+04:00  INFO 14068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03T21:44:37.649+04:00  INFO 14068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:44:37.834+04:00  WARN 14068 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-03T21:44:38.072+04:00  INFO 14068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-03T21:44:38.078+04:00  INFO 14068 --- [main] c.d.gameauction.GameAuctionApplication   : Started GameAuctionApplication in 2.888 seconds (process running for 3.396)
+2023-10-03T21:44:45.923+04:00  INFO 14068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03T21:44:45.924+04:00  INFO 14068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03T21:44:45.925+04:00  INFO 14068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-03T21:44:46.008+04:00  INFO 14068 --- [http-nio-8080-exec-1] c.d.g.controller.GameRegisterController  : received request to get game by id: {id}
+2023-10-03T21:45:09.340+04:00  INFO 14068 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:45:09.342+04:00  INFO 14068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-03T21:45:09.344+04:00  INFO 14068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-03T21:45:13.782+04:00  INFO 9864 --- [main] c.d.gameauction.GameAuctionApplication   : Starting GameAuctionApplication using Java 21 with PID 9864 (C:\Users\davitabu\Desktop\test\gameAuction\target\classes started by davitabu in C:\Users\davitabu\Desktop\test\gameAuction)
+2023-10-03T21:45:13.785+04:00  INFO 9864 --- [main] c.d.gameauction.GameAuctionApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T21:45:14.254+04:00  INFO 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03T21:45:14.292+04:00  INFO 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-10-03T21:45:14.642+04:00  INFO 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-03T21:45:14.648+04:00  INFO 9864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-03T21:45:14.649+04:00  INFO 9864 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-03T21:45:14.714+04:00  INFO 9864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-03T21:45:14.714+04:00  INFO 9864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 893 ms
+2023-10-03T21:45:14.813+04:00  INFO 9864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03T21:45:14.852+04:00  INFO 9864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-03T21:45:14.853+04:00  INFO 9864 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-03T21:45:14.953+04:00  INFO 9864 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:45:15.052+04:00  INFO 9864 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-03T21:45:15.062+04:00  INFO 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-03T21:45:15.170+04:00  INFO 9864 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63e4484d
+2023-10-03T21:45:15.172+04:00  INFO 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-03T21:45:15.362+04:00  INFO 9864 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:45:15.874+04:00  INFO 9864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03T21:45:15.929+04:00  INFO 9864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:45:16.123+04:00  WARN 9864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-03T21:45:16.356+04:00  INFO 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-03T21:45:16.361+04:00  INFO 9864 --- [main] c.d.gameauction.GameAuctionApplication   : Started GameAuctionApplication in 2.964 seconds (process running for 3.468)
+2023-10-03T21:45:18.496+04:00  INFO 9864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03T21:45:18.496+04:00  INFO 9864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03T21:45:18.497+04:00  INFO 9864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-03T21:45:18.524+04:00  INFO 9864 --- [http-nio-8080-exec-1] c.d.g.controller.GameRegisterController  : received request to get game by id: 212
+2023-10-03T21:49:56.454+04:00  INFO 9820 --- [main] c.d.g.GameAuctionApplicationTests        : Starting GameAuctionApplicationTests using Java 21 with PID 9820 (started by davitabu in C:\Users\davitabu\Desktop\test\gameAuction)
+2023-10-03T21:49:56.457+04:00  INFO 9820 --- [main] c.d.g.GameAuctionApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T21:49:57.635+04:00  INFO 9820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03T21:49:57.759+04:00  INFO 9820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+2023-10-03T21:49:58.325+04:00  INFO 9820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03T21:49:58.404+04:00  INFO 9820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-03T21:49:58.407+04:00  INFO 9820 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-03T21:49:58.628+04:00  INFO 9820 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:49:58.797+04:00  INFO 9820 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-03T21:49:58.815+04:00  INFO 9820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-03T21:49:59.019+04:00  INFO 9820 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38c761e9
+2023-10-03T21:49:59.021+04:00  INFO 9820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-03T21:49:59.286+04:00  INFO 9820 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-03T21:49:59.846+04:00  INFO 9820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03T21:49:59.900+04:00  INFO 9820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:50:00.300+04:00  WARN 9820 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-03T21:50:00.596+04:00  INFO 9820 --- [main] c.d.g.GameAuctionApplicationTests        : Started GameAuctionApplicationTests in 4.484 seconds (process running for 5.456)
+2023-10-03T21:50:01.166+04:00  INFO 9820 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T21:50:01.168+04:00  INFO 9820 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-03T21:50:01.171+04:00  INFO 9820 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-03T22:37:28.782+04:00  INFO 9864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03T22:37:28.785+04:00  INFO 9864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-03T22:37:28.788+04:00  INFO 9864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
