@@ -40,4 +40,12 @@ public class GameRegisterController {
         return game.map(value -> new ResponseEntity<>(value, HttpStatus.OK))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
+
+    @GetMapping("/{ids}")
+    public ResponseEntity<RegisteredGame> getGameByIds(@PathVariable Long id) {
+        log.info("received request to get game by id: {}", id);
+        Optional<RegisteredGame> game = registerRepository.findById(id);
+        return game.map(value -> new ResponseEntity<>(value, HttpStatus.OK))
+                .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
+    }
 }
