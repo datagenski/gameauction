@@ -23,15 +23,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        success {
-            // You can add post-build actions here.
-            // For example, notify on success or trigger other jobs.
-        }
-        failure {
-            // You can add post-build actions for failure cases.
-            // For example, send notifications or perform cleanup.
-        }
-    }
 }
